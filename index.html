@@ -23,8 +23,8 @@
 </head>
 <body>
     <div id="header" style="width:1000px;"><h1>cub◆us◆que◆ colo◆rum</h1></div>
-    <div id="ass" class="row align-items-center row-cols-md-5 mb-5 text-center" style="position:absolute; height: 1000px; width:1000px; z-index: 1;"></div>
-    <div id="rules" class="row align-items-center row-cols-md-5 mb-5 text-center" style="position:absolute;height: 1000px; width:1000px; z-index: 0;"></div>
+    <div id="hider" class="row align-items-center row-cols-md-5 mb-5 text-center" style="position:absolute; height: 1000px; width:1000px; z-index: 1;"></div>
+    <div id="prize" class="row align-items-center row-cols-md-5 mb-5 text-center" style="position:absolute;height: 1000px; width:1000px; z-index: 0;"></div>
     <script>
         
         fetch('boxes.json')
@@ -42,7 +42,7 @@
             });
             
         function appendData(data) {
-            var mainContainer = document.getElementById("rules");
+            var mainContainer = document.getElementById("prize");
             for (var i = 0; i < data.length; i++) {
                 var li = document.createElement("div");
                 li.className = "col themed-grid-col d-inline-flex p-2";
@@ -53,7 +53,7 @@
         }
 
         function fargfemma() {
-            var pants = document.getElementById("ass");
+            var pants = document.getElementById("hider");
             var boxes = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25"]
             console.log(boxes)
             for (i in boxes) {
