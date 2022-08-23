@@ -1,31 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="theme-color" content="#E9E9EB">
-    <title>>cub◆us◆que◆ colo◆rum</title>
+    <title>QuinqueColorum</title>
     <link type="text/css" media="screen" rel="stylesheet" href="grid.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@400;500;700&display=swap" rel="stylesheet">
-<!-- JavaScript Bundle with Popper -->
-<!-- Latest compiled and minified CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-<!-- Latest compiled JavaScript -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
 </head>
 <body>
-    <div id="container">
-    <div id="header" style="width:1000px;"><h1>cub◆us◆que◆ colo◆rum</h1></div>
+    <div id="header"><h1>QuinqueColorum</h1></div>
+    <div id="container" class="d-flex justify-content-center">
     <div id="hider" class="row align-items-center row-cols-md-5 mb-5 text-center" style="position:absolute; height: 1000px; width:1000px; z-index: 1;"></div>
-    <div id="prize" class="row align-items-center row-cols-md-5 mb-5 text-center" style="position:absolute;height: 1000px; width:1000px; z-index: 0;"></div>
+    <div id="prize" class="row align-items-center row-cols-md-5 mb-5 text-center" style="position:absolute; height: 1000px; width:1000px; z-index: 0;"></div>
     <script>
         
         fetch('boxes.json')
@@ -36,7 +29,6 @@
                 var shuffle = data.sort(()=>Math.random()-0.5);
                 appendData(shuffle);
                 fargfemma();
-                console.log(data);
             })
             .catch(function (err) {
                 console.log('error: ' + err);
@@ -48,7 +40,7 @@
                 var li = document.createElement("div");
                 li.className = "col themed-grid-col d-inline-flex p-2";
                 li.innerHTML = "<div class='d-inline-flex p-2'>"+data[i].box[0]+"</div>";
-                li.style = "background-color:" + data[i].box[1];
+                li.style = "border-radius: 20px; background-color:" + data[i].box[1];
                 mainContainer.appendChild(li);
             }
         }
@@ -56,12 +48,10 @@
         function fargfemma() {
             var pants = document.getElementById("hider");
             var boxes = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25"]
-            console.log(boxes)
             for (i in boxes) {
                 var box = document.createElement("div");
                 box.className = "col themed-grid-col d-inline-flex p-2 vanish"
                 var idbox = boxes[i].toString()
-                console.log (idbox)
                 box.id = idbox
                 box.innerHTML = "<button onClick='poof("+idbox+")'>"+boxes[i]+"</button>"
                 //box.onclick = poof(box.id)
@@ -72,15 +62,12 @@
         }
         
         function poof(squareid) {
-            console.log(squareid)
             var kill = document.getElementById(squareid)
             if (kill.style.opacity == 100) {
                 kill.style="opacity: 0"
                 confetti({particleCount: 100, spread: 1080})
             } else {kill.style="color: #fff; background-color: #000; font-size: 60px; opacity: 100"}
-            console.log(kill.style.opacity)
             
-            //this.style.opacity="0"
         }
     </script>
 <script>

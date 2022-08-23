@@ -1,78 +1,78 @@
 [
     {
-        "box": ["Red1", "#FF5D32"]
+        "box": ["Red01", "#FF5D32"]
     },
     {
-        "box": ["Red2", "#FF5D32"]
+        "box": ["Red02", "#FF5D32"]
     },
     {
-        "box": ["Red3", "#FF5D32"]
+        "box": ["Red03", "#FF5D32"]
     },
     {
-        "box": ["Red4", "#FF5D32"]
+        "box": ["Red04", "#FF5D32"]
     },
     {
-        "box": ["Red5", "#FF5D32"]
+        "box": ["Red05", "#FF5D32"]
     },
     {
-        "box": ["Yellow1", "#49BFE5"]
+        "box": ["Blue01", "#49BFE5"]
     },
     {
-        "box": ["Yellow1", "#49BFE5"]
+        "box": ["Blue02", "#49BFE5"]
     },
     {
-        "box": ["Yellow1", "#49BFE5"]
+        "box": ["Blue03", "#49BFE5"]
     },
     {
-        "box": ["Yellow1", "#49BFE5"]
+        "box": ["Blue04", "#49BFE5"]
     },
     {
-        "box": ["Yellow1", "#49BFE5"]
+        "box": ["Blue05", "#49BFE5"]
     },
     {
-        "box": ["Green1", "#86BB4F"]
+        "box": ["Green01", "#86BB4F"]
     },
     {
-        "box": ["Green1", "#86BB4F"]
+        "box": ["Green02", "#86BB4F"]
     },
     {
-        "box": ["Green1", "#86BB4F"]
+        "box": ["Green03", "#86BB4F"]
     },
     {
-        "box": ["Green1", "#86BB4F"]
+        "box": ["Green04", "#86BB4F"]
     },
     {
-        "box": ["Green1", "#86BB4F"]
+        "box": ["Green05", "#86BB4F"]
     },
     {
-        "box": ["Blue1", "#9D549D"]
+        "box": ["Purple01", "#9D549D"]
     },
     {
-        "box": ["Blue1", "#9D549D"]
+        "box": ["Purple02", "#9D549D"]
     },
     {
-        "box": ["Blue1", "#9D549D"]
+        "box": ["Purple03", "#9D549D"]
     },
     {
-        "box": ["Blue1", "#9D549D"]
+        "box": ["Purple04", "#9D549D"]
     },
     {
-        "box": ["Blue1", "#9D549D"]
+        "box": ["Purple05", "#9D549D"]
     },
     {
-        "box": ["Purple1", "#FFCC57"]
+        "box": ["Yellow01", "#FFCC57"]
     },
     {
-        "box": ["Purple1", "#FFCC57"]
+        "box": ["Yellow02", "#FFCC57"]
     },
     {
-        "box": ["Purple1", "#FFCC57"]
+        "box": ["Yellow03", "#FFCC57"]
     },
     {
-        "box": ["Purple1", "#FFCC57"]
+        "box": ["Yellow04", "#FFCC57"]
     },
     {
-        "box": ["Purple1", "#FFCC57"]
+        "box": ["Yellow05", "#FFCC57"]
     }
 ]
     
