@@ -1,78 +1,78 @@
 [
     {
-        "box": ["Red01", "#FF5D32"]
+        "box": ["500 Guld", "#FF5D32"]
     },
     {
-        "box": ["Red02", "#FF5D32"]
+        "box": ["Elefant", "#FF5D32"]
     },
     {
-        "box": ["Red03", "#FF5D32"]
+        "box": ["Åsna", "#FF5D32"]
     },
     {
-        "box": ["Red04", "#FF5D32"]
+        "box": ["Häst", "#FF5D32"]
     },
     {
-        "box": ["Red05", "#FF5D32"]
+        "box": ["Kobold-släde", "#FF5D32"]
     },
     {
-        "box": ["Blue01", "#49BFE5"]
+        "box": ["Studded Leather Armor", "#49BFE5"]
     },
     {
-        "box": ["Blue02", "#49BFE5"]
+        "box": ["Scale Mail Armor", "#49BFE5"]
     },
     {
-        "box": ["Blue03", "#49BFE5"]
+        "box": ["Breastplate Armor", "#49BFE5"]
     },
     {
-        "box": ["Blue04", "#49BFE5"]
+        "box": ["Spiked Armor", "#49BFE5"]
     },
     {
-        "box": ["Blue05", "#49BFE5"]
+        "box": ["Chain Mail Armor", "#49BFE5"]
     },
     {
-        "box": ["Green01", "#86BB4F"]
+        "box": ["Greatsword", "#86BB4F"]
     },
     {
-        "box": ["Green02", "#86BB4F"]
+        "box": ["Longsword", "#86BB4F"]
     },
     {
-        "box": ["Green03", "#86BB4F"]
+        "box": ["Warhammer", "#86BB4F"]
     },
     {
-        "box": ["Green04", "#86BB4F"]
+        "box": ["Longbow", "#86BB4F"]
     },
     {
-        "box": ["Green05", "#86BB4F"]
+        "box": ["Greataxe", "#86BB4F"]
     },
     {
-        "box": ["Purple01", "#9D549D"]
+        "box": ["Silkesrep", "#9D549D"]
     },
     {
-        "box": ["Purple02", "#9D549D"]
+        "box": ["En snygg hatt", "#9D549D"]
     },
     {
-        "box": ["Purple03", "#9D549D"]
+        "box": ["Papper & Penna", "#9D549D"]
     },
     {
-        "box": ["Purple04", "#9D549D"]
+        "box": ["En påse fikon", "#9D549D"]
     },
     {
-        "box": ["Purple05", "#9D549D"]
+        "box": ["Nebuchadezzar flaska med vin", "#9D549D"]
     },
     {
-        "box": ["Yellow01", "#FFCC57"]
+        "box": ["Ball bearings (bag of 1,000)", "#FFCC57"]
     },
     {
-        "box": ["Yellow02", "#FFCC57"]
+        "box": ["Hourglass", "#FFCC57"]
     },
     {
-        "box": ["Yellow03", "#FFCC57"]
+        "box": ["Magnifying glass", "#FFCC57"]
     },
     {
-        "box": ["Yellow04", "#FFCC57"]
+        "box": ["Snöskor", "#FFCC57"]
     },
     {
-        "box": ["Yellow05", "#FFCC57"]
+        "box": ["En färgfemman-robe", "#FFCC57"]
     }
 ]
     
