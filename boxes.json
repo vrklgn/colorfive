@@ -1,18 +1,18 @@
 [
     {
-        "box": ["500 Guld", "#FF5D32"]
+        "box": ["500 Gold", "#FF5D32"]
     },
     {
-        "box": ["Elefant", "#FF5D32"]
+        "box": ["Elephant", "#FF5D32"]
     },
     {
-        "box": ["Åsna", "#FF5D32"]
+        "box": ["Donkey", "#FF5D32"]
     },
     {
-        "box": ["Häst", "#FF5D32"]
+        "box": ["Horse", "#FF5D32"]
     },
     {
-        "box": ["Kobold-släde", "#FF5D32"]
+        "box": ["Kobold Sled", "#FF5D32"]
     },
     {
         "box": ["Studded Leather Armor", "#49BFE5"]
@@ -45,19 +45,19 @@
         "box": ["Greataxe", "#86BB4F"]
     },
     {
-        "box": ["Silkesrep", "#9D549D"]
+        "box": ["Rope", "#9D549D"]
     },
     {
-        "box": ["En snygg hatt", "#9D549D"]
+        "box": ["A nice had", "#9D549D"]
     },
     {
-        "box": ["Papper & Penna", "#9D549D"]
+        "box": ["Paper & Pen", "#9D549D"]
     },
     {
-        "box": ["En påse fikon", "#9D549D"]
+        "box": ["Figs", "#9D549D"]
     },
     {
-        "box": ["Nebuchadezzar flaska med vin", "#9D549D"]
+        "box": ["Nebuchadezzar bottle of wine", "#9D549D"]
     },
     {
         "box": ["Ball bearings (bag of 1,000)", "#FFCC57"]
@@ -69,10 +69,10 @@
         "box": ["Magnifying glass", "#FFCC57"]
     },
     {
-        "box": ["Snöskor", "#FFCC57"]
+        "box": ["Snowshoes", "#FFCC57"]
     },
     {
-        "box": ["En färgfemman-robe", "#FFCC57"]
+        "box": ["Vasils Magic Sphere", "#FFCC57"]
     }
 ]
     
